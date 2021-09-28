@@ -42,7 +42,7 @@ const BarChart = () => {
     //       });
 
       axios
-        .get("https://sheet2api.com/v1/ua5jKr8vQ3Cf/empdetails")
+        .get("https://dummy.restapiexample.com/api/v1/employees")
         .then(res => {
           console.log(res);
           for (const dataObj of res.data) {
